@@ -43,7 +43,9 @@ git clone [https://github.com/nuriiaacc/TFG-R.git](https://github.com/nuriiaacc/
 
 > Before running the pipeline, copy and paste this code into your RStudio console to create the required output directory:
 
+```bash
 if (!dir.exists("output")) dir.create("output")
+```
 
 3. Run the main R script (`TFG-script.R`). 
 
