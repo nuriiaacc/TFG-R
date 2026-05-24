@@ -52,7 +52,7 @@ if (!dir.exists("output")) dir.create("output")
 ## Repository structure
 
 * `TFG-script.R`: The core R script containing the workflow.
-* `GDCdata/`: Local folder where raw TCGA GDC data files are stored.
+* `GDCdata/`: (Excluded via .gitignore) Local folder where raw TCGA GDC data files are stored.
 * `output/`: Directory where all analytic results are saved:
     * `Resultados_DEA_TFs_GBM.csv`: Main spreadsheet containing the differential expression statistics.
     * `Volcano_TFs.png` & `Heatmap_TFs.pdf`: Visualization plots of the TF expression landscape.
