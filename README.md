@@ -30,7 +30,7 @@ BiocManager::install(c("TCGAbiolinks", "DESeq2", "biomaRt", "clusterProfiler",
 # CRAN dependencies
 install.packages(c("dplyr", "ggplot2", "ggrepel", "pheatmap", "survival", 
                    "data.table", "enrichR"))
-
+```
 ## Usage
 
 1. Clone this repository to your local machine:
