@@ -18,7 +18,7 @@ The analysis is structured into different phases:
 
 ## Prerequisites & Installation
 
-To run this pipeline, you need **R (version $\ge$ 4.0$)** along with the following CRAN and Bioconductor packages:
+To run this pipeline, you need **R (version $\ge$ 4.0)** along with the following CRAN and Bioconductor packages:
 
 ### Required Packages
 ```R
