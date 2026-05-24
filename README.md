@@ -53,17 +53,9 @@ if (!dir.exists("output")) dir.create("output")
 
 ## Repository structure
 
-* `TFG-script.R`: The core R script containing the workflow.
+* `scripts_TFG/TFG-script.R`: The core R script containing the workflow.
 * `GDCdata/`: (Excluded via .gitignore) Local folder where raw TCGA GDC data files are stored.
-* `output/`: Directory where all analytic results are saved:
-    * `Resultados_DEA_TFs_GBM.csv`: Main spreadsheet containing the differential expression statistics.
-    * `Volcano_TFs.png` & `Heatmap_TFs.pdf`: Visualization plots of the TF expression landscape.
-    * `PCA_plot.pdf`: Principal Component Analysis showing tumor/normal separation and K-means subtyping.
-    * `Supervivencia_GBM_Subgrupos.pdf`: Kaplan-Meier survival curves and risk tables.
-    * `GO_General_Tumor_vs_Normal.pdf`: Dotplots illustrating over-represented Biological Processes.
-    * `Dianas_Terapeuticas_Enrichr.pdf`: Bar chart highlighting top potential pharmaceutical drug matches.
-
----
+* `output/`: Directory where all analytic results are saved.
 
 ## Author
 
